@@ -1,22 +1,51 @@
-# Swag Labs Mobile - QA Testing Portfolio 📱
+Plantilla de Proyecto de Tecnología: QA Mobile Testing
+1. INFORMACION GENERAL
+Nombre del proyecto: Swag Labs Mobile QA Testing Suite & Quality Assessment
 
-Repositorio de pruebas manuales, análisis de interfaz y listas de comprobación orientadas a la aplicación móvil de e-commerce **Swag Labs** (Android).
+Especialidad: QA (Quality Assurance / Mobile Testing)
 
-## 🚀 Descripción del Proyecto
-Este proyecto forma parte de mi portafolio como **Bilingual QA Engineer**, enfocado en la aplicación de metodologías de pruebas exhaustivas en entornos móviles (emuladores de Android Studio), inspección de logs del sistema y diseño de listas de comprobación detalladas para asegurar la calidad del software (UI/UX, flujos funcionales y ciclo de vida de la aplicación).
+Fuente del proyecto: Sistema o app a testear (Aplicación de código abierto / Demo - Sauce Labs Mobile APK)
 
-## 📋 Contenido del Repositorio
-* **`qa_mobile_swaglabs_completo.pdf`**: Lista de comprobación exhaustiva de 65 puntos que cubre:
-  * Instalación y rendimiento inicial en emulador.
-  * Pruebas funcionales de inicio de sesión (Login con escenarios positivos y negativos).
-  * Validación de campos de texto, seguridad de contraseñas y caracteres especiales.
-  * Navegación, catálogos, detalles de productos y carrito de compras.
-  * Flujo completo de pago (*Checkout*) y confirmación de órdenes.
-  * Pruebas de ciclo de vida (*App Lifecycle*), rotación de pantalla (*Landscape/Portrait*) y manejo de interrupciones.
-  * Monitoreo técnico e inspección de errores en `Logcat`.
+Link a la fuente original: Repositorio Oficial Sauce Labs Sample App Mobile
 
-## 🛠️ Herramientas y Tecnologías Utilizadas
-* **Entorno de Pruebas:** Android Studio (Emuladores virtuales).
-* **Gestión y Ejecución:** Pruebas exploratorias y manuales orientadas a criterios de aceptación.
-* **Depuración técnica:** Inspección de registros en tiempo real mediante `Logcat`.
-* **Control de versiones:** Git y GitHub.
+Link al proyecto publicado: [Tu repositorio de GitHub con el proyecto]
+
+2. OBJETIVO
+Este proyecto busca evaluar de forma integral la estabilidad, flujos funcionales y la experiencia de usuario de la aplicación móvil de e-commerce Swag Labs en un entorno virtualizado (Android Studio). Su propósito es prevenir fallos críticos de usabilidad, errores de renderizado de interfaz y fallos en las transacciones de pago, garantizando un estándar de calidad riguroso previo a un despliegue en producción.
+
+3. PLAN DE TRABAJO
+Análisis de requisitos: Revisión de las especificaciones funcionales de la aplicación, flujos de autenticación, comportamiento del catálogo y restricciones del carrito de compras.
+
+Diseño de casos de prueba: Elaboración de una lista de comprobación de 65 puntos y casos de prueba detallados (Happy Paths, Casos Negativos y pruebas de interfaz).
+
+Ejecución de pruebas (manuales/exploratorias): Validación en emuladores de Android Studio, pruebas de ciclo de vida (App Lifecycle), rotación de pantalla y validación de campos de texto con caracteres especiales.
+
+Evaluación y Registro de Errores: Monitoreo y depuración técnica de excepciones en tiempo real mediante Logcat, clasificación de hallazgos por severidad y documentación de evidencias.
+
+Conclusiones y próximos pasos: Consolidación de la documentación técnica en un portafolio profesional en GitHub optimizado para visibilidad ante reclutadores.
+
+4. PREGUNTAS CLAVE
+¿Cómo responde la aplicación ante interrupciones del sistema (llamadas, pérdida de conectividad o cambios abruptos de red) durante un flujo de compra activo?
+
+¿De qué manera los distintos tipos de usuarios predefinidos (problem_user, performance_glitch_user) afectan la estabilidad del rendimiento gráfico y la experiencia del usuario final?
+
+¿Se están exponiendo datos sensibles o credenciales en texto plano dentro de los registros del sistema (Logcat) durante la autenticación?
+
+5. QUE SE HIZO Y COMO
+Tipos de pruebas aplicadas: Pruebas funcionales, pruebas de interfaz (UI/UX responsiveness), pruebas de robustez con caracteres especiales (Boundary Value Analysis) y pruebas de ciclo de vida de la aplicación.
+
+Herramientas usadas: Android Studio (Emuladores virtuales), depuración en vivo con Logcat, control de versiones con Git y GitHub para la documentación formal en PDF y Markdown.
+
+Criterios de aceptación: Validación estricta de que los flujos obligatorios de compra impidan avanzar sin datos en el checkout, enmascaramiento seguro de contraseñas y consistencia en los cálculos de los productos agregados al carrito.
+
+6. RESULTADOS
+Bugs encontrados y cobertura: Se estructuró una cobertura de 65 puntos funcionales y técnicos. Se documentaron hallazgos clave relacionados con desbordamientos visuales ante nombres de productos extensos y validaciones de campos en formularios de envío.
+
+Severidad: Identificación y registro de comportamientos anómalos en perfiles de usuario defectuosos específicos de la plataforma de pruebas (problem_user).
+
+7. CONCLUSIONES
+Aprendizajes: Consolidé la importancia de un análisis granular en aplicaciones móviles, vinculando directamente las fallas visuales de la interfaz con la inspección técnica en Logcat para facilitar la labor de los desarrolladores.
+
+Mejoras con más tiempo: Incorporar scripts de automatización de pruebas móviles utilizando Python y Appium sobre esta misma suite de casos de prueba.
+
+Mención en entrevistas: Destacaría la capacidad de estructurar documentación técnica de QA de nivel profesional (listas de comprobación masivas y análisis de causa raíz) adaptada a entornos de trabajo bilingües.
